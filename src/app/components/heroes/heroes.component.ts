@@ -16,7 +16,7 @@ heroes:Heroe[]=[];
     //console.log("constructor");
   }
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.heroes = this._heroesService.getHeroes();
     //console.log(this.heroes);
   }

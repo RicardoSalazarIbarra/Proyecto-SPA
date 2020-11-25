@@ -19,7 +19,7 @@ export class HeroeComponent {
     });
   }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
   buscarHeroe( termino:string){
